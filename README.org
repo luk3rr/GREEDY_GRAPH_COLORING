@@ -1,1 +1,18 @@
-* GREEDY_GRAPH_COLORING
+* GREEDY_GRAPH_COLORING (GGC)
+GGC is a program that takes a graph $G = (V, E)$ that is $k$-colorable and a proper $k$-coloring $c$ of $G$, and determines if coloring $c$ is a greedy coloring. This program is the result of a practical activity in the Data Structures course of the [[https://dcc.ufmg.br/][Department of Computer Science at UFMG]].
+
+* Table of Contents
++ [[#Compiling][Compiling]]
++ [[#Execution][Execution]]
++ [[#Documentation][Documentation]]
+
+* Compiling
+GGC can be compiled using the following command:
+
+#+BEGIN_SRC sh
+$ make build
+#+END_SRC
+
+Note: The program was developed and tested using g++12. Make sure to use this compiler version.
+* Execution
+* Documentation
